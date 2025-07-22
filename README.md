@@ -12,6 +12,9 @@ install.packages("tidytext")
 install.packages("tidyverse")
 devtools::install_github("r-lib/conflicted") # https://conflicted.r-lib.org/
 ```
-
 ## Questions for bailers
 in our code we have 2 variables sciname_metadata and artis request. I thought we had it figured out but sciname_metadata expects a genus column which confuses me. I think artis request is supposed to be the big csv file and sciname_metadata is after we have done some filtering (like maybe adding genus column from sciname?) I dont know and im not familiar enough with the data to know if we arent just missing something
+
+## TODO
+- Look into pipes (%>% in R)
+- Files paths
