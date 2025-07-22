@@ -27,8 +27,8 @@ sciname_list <- c("ictalurus punctatus", # channel catfish
                   tilapia_scinames, carp_scinames)
 
 # filter data
-artis_request <- artis_custom %>%
-  filter(sciname %in% sciname_list) 
+# artis_request <- artis_custom %>%
+# filter(sciname %in% sciname_list) 
 
 # write out csv file
 write.csv(artis_request, "data_requests/artis_request_snodgrass.csv", 
