@@ -1,0 +1,21 @@
+# artis github
+# https://github.com/Seafood-Globalization-Lab/exploreARTIS
+
+# artis data
+# artis_request_snodgrass.csv
+
+# EXTRA COMMANDS TO GET IT TO WORK!!!
+
+devtools::install_github("davidsjoberg/ggsankey")
+install.packages("tidytext")
+install.packages("tidyverse")
+
+# https://conflicted.r-lib.org/
+devtools::install_github("r-lib/conflicted")
+
+# remember read.csv()
+
+# TODO
+# look into %>% (Pipes) (for R or in general they work pretty simmilar across the board)
+# file paths in general. i.e "./test.csv"
+# 
