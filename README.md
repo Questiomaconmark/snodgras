@@ -13,8 +13,8 @@ install.packages("tidyverse")
 devtools::install_github("r-lib/conflicted") # https://conflicted.r-lib.org/
 ```
 ## Questions for bailers
-in our code we have 2 variables sciname_metadata and artis request. I thought we had it figured out but sciname_metadata expects a genus column which confuses me. I think artis request is supposed to be the big csv file and sciname_metadata is after we have done some filtering (like maybe adding genus column from sciname?) I dont know and im not familiar enough with the data to know if we arent just missing something
-
+Looks like the script that you sent was already ran and that is how we have the current csv file. I mean we can use it to filter it down more, but notice the output of the write.csv (same file name as current csv). I made a quick test script and you can see we can already visualize this dataset and it seems to match the species already in that script, and reading docs of filter_bulk_artis.R looks like has been filtered via a range. 
+ 
 ## TODO
 - Look into pipes (%>% in R)
 - Files paths

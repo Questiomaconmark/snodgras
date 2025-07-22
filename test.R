@@ -12,7 +12,9 @@ plot <- plot_bar(
   top_n = 10,
   x.lab = "Export weight (t)",
   y.lab = "Country (ISO3)",
-  plot.title = "Top exporting countries"
+  plot.title = "Top exporting countries",
 )
+plot <- plot + ggplot2::ggtitle("Top exporting countries")
+
 
 print(plot)
