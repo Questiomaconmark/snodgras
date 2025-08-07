@@ -4,7 +4,7 @@
 library(arrow)
 library(dplyr)
 
-# pulling full data set
+# pulling full data set using path to Artis dataset (from 1.1.0 dropbox)
 artis_ds <- open_dataset("bailey_stuff/ARITS_1.1.0_FAO_2025_08_02/ARITS_1.1.0_FAO_2025_08_02/datasets/")
 
 # Have the option of splitting data, maybe useful? maybe not
