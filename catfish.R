@@ -21,5 +21,4 @@ plt <- plot_bar(catfish_csv,
   facet_values = c("native", "invasive")
 )
 
-
 print(plt)
