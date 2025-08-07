@@ -1,8 +1,7 @@
 # Packages
 # install.packages("arrow")
-# install.packages("dplyr")
 library(arrow)
-library(dplyr)
+library(tidyverse)
 
 # pulling full data set using path to Artis dataset (from 1.1.0 dropbox)
 # artis_ds <- open_dataset("bailey_stuff/ARITS_1.1.0_FAO_2025_08_02/ARITS_1.1.0_FAO_2025_08_02/datasets/")

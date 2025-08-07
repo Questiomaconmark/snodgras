@@ -13,5 +13,4 @@ install.packages("tidytext")
 install.packages("tidyverse")
 devtools::install_github("r-lib/conflicted") # https://conflicted.r-lib.org/
 install.packages("arrow")
-install.packages("dplyr")
 ```
