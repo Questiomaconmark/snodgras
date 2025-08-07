@@ -39,7 +39,7 @@ artis_ds_consumption_testfish_filter <- artis_ds_consumption %>%
 artis_ds_consumption_csv <- artis_ds_consumption_testfish_filter %>%
   collect()
 
-write.csv(artis_ds_csv_consumption, "bailey_stuff/snodgras_capstone_scripts/lionfish_testing/lionfish_consumption.csv", 
+write.csv(artis_ds_consumption_csv, "bailey_stuff/snodgras_capstone_scripts/lionfish_testing/lionfish_consumption.csv", 
           row.names = FALSE)
 
 # trade csv creation
@@ -49,5 +49,5 @@ artis_ds_trade_testfish_filter <- artis_ds_trade %>%
 artis_ds_trade_csv <- artis_ds_trade_testfish_filter %>%
                 collect()
 
-write.csv(artis_ds_csv_trade, "bailey_stuff/snodgras_capstone_scripts/lionfish_testing/lionfish_trade.csv", 
+write.csv(artis_ds_trade_csv, "bailey_stuff/snodgras_capstone_scripts/lionfish_testing/lionfish_trade.csv", 
           row.names = FALSE)
